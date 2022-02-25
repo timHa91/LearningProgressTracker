@@ -2,7 +2,7 @@ package tracker;
 
 import java.util.Scanner;
 
-public class InputParser {
+public class InputChecker {
 
     public static String parseInput() {
         Scanner scanner = new Scanner(System.in);

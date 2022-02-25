@@ -6,7 +6,6 @@ import static tracker.Message.printMessage;
 
 public class CredentialChecker {
 
-    // Constants
     private static final String REGEX_FIRST_NAME = "^(([A-Za-z]{2,})|([A-Za-z]+[\\-'][A-Za-z]+))+$";
     private static final String REGEX_LAST_NAME = "^(([A-Za-z]{2,})|([A-Za-z]+[\\-'\\s][A-Za-z]+)[\\s-]*)+$";
     private static final String REGEX_EMAIL = "([\\w.-]+\\@\\w+\\.\\w+)$";

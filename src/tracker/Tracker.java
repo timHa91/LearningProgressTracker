@@ -2,7 +2,7 @@ package tracker;
 
 
 import static tracker.Message.printMessage;
-import static tracker.InputParser.*;
+import static tracker.InputChecker.*;
 import static tracker.MenuPrinter.*;
 
 
