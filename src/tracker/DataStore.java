@@ -6,6 +6,7 @@ import java.util.UUID;
 import static tracker.Message.*;
 
 public class DataStore {
+
     private static Map<String, Student> students = new HashMap<>();
 
     public static boolean addStudentToDataStore(String userInput) {

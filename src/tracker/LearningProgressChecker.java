@@ -3,7 +3,6 @@ package tracker;
 import static tracker.Message.*;
 
 public class LearningProgressChecker {
-    private static final String REGEX_FIRST_NAME = "^(([A-Za-z]{2,})|([A-Za-z]+[\\-'][A-Za-z]+))+$";
 
     public static boolean checkLearningProgressInput(String input) {
         String[] inputParts = input.split("\\s+");
